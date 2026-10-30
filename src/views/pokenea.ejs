@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pokenea - <%= name %></title>
+    <%- include('layouts/head') %>
+  </head>
+  <body>
+    <main class="card">
+      <img src="<%= imageUrl %>" alt="<%= name %>" />
+      <blockquote>“<%= philosophicalPhrase %>”</blockquote>
+      <footer>Container: <code><%= containerId %></code></footer>
+    </main>
+  </body>
+</html>
